@@ -1,0 +1,102 @@
+.background{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url("../imagenes/2958532.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    padding: 5% 10% 0% 40%; 
+
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 25px; 
+    letter-spacing: 1px;  
+    text-shadow: 2px 2px 2px #082b34; 
+    
+  }
+
+
+  .contentDetail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border-style: none;
+    background-size:cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 2px;
+    background-color: rgba(255, 131, 36, 0.903);
+
+    border-radius: 30px;
+
+} 
+.contentActiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border-style: none;
+  background-size:cover;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-left: 2px;
+  background-color: rgba(219, 88, 1, 0.878);
+  border-radius: 5px;
+  
+} 
+.content2 {
+    display: flex;
+    flex-direction: row;
+} 
+
+.img {
+  
+    width: 400px;
+    height: 100;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .text{
+    font-size: 25px;
+    font-family: 'Helvetica Neue', sans-serif; 
+    justify-content: space-evenly;    
+    margin-top: 1px;
+    margin-right: 20px;
+    margin-left: 10px;
+    color: #ffffff; 
+    text-shadow: 2px 2px 2px #082b34;
+ }
+
+
+ .btn{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255, 251, 1, 0.957);
+    margin-top: 30px;
+    padding: 12px 40px 12px 40px;
+    cursor: pointer ;
+    font-size: 20px;
+
+}
+
+.btn:hover {
+    background-color: rgb(216, 102, 14);
+    color: #ffffff;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}
+

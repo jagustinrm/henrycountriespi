@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url("../imagenes/globo-cuaderno-sobre-fondo-amarillo-naranja-vista-superior-minimalismo-concepto-educacion-geografia_175682-13575.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    padding: 30px;
+}
+.contentPadre{
+    padding: 13px 19px 13px 19px;
+    height: 100%;
+    width: 100%;
+
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.h1 { color: #ffffff; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 30px; 
+    font-weight: 100%; 
+    line-height: 100%; 
+    letter-spacing: 1px; 
+    padding: 0px 40px 40px; 
+    text-shadow: 2px 2px 2px #082b34; 
+    }
+
+.content{
+    
+    width: 1000px;
+    height: 100%;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 5% 10% 30% 10%; 
+
+}
+
+.btn{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgba(255, 251, 1, 0.957);
+    margin-top: 30px;
+    padding: 12px 40px 12px 40px;
+    cursor: pointer ;
+    font-size: 20px;
+}
+.btndis{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgba(255, 251, 1, 0.957);
+    margin-top: 30px;
+    padding: 12px 40px 12px 40px;
+    cursor: pointer ;
+    font-size: 20px;
+
+}
+
+.btn:hover {
+    background-color: rgb(216, 102, 14);
+    color: #ffffff;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}
+
+.input{
+
+    font: inherit;
+    font-size: 1em;;
+    border: 2;
+    outline: 0;
+    border-radius: 5em;
+    box-sizing: border-box;
+    color: #343434;
+    height: 4000%;
+    width: 60%;
+    padding: 0.714em;
+} 
+
+.select {
+	width: 225px;
+	height: 40px;
+	cursor: pointer;
+	background-color: white;
+	box-shadow: 0 2px 0 white;
+	border-radius: 2px;
+    margin-top: 5px;
+}
+    
+.text{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Helvetica Neue', sans-serif; 
+    justify-content: space-evenly;    
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+    color: #ffffff; 
+    text-shadow: 2px 2px 2px #082b34;
+  }
+.flex {
+    display: flex;
+}

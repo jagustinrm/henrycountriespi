@@ -1,0 +1,41 @@
+.btn{
+    border-radius: 10px;
+    border-style: none;
+    /* background-color: rgba(255, 162, 0, 0.957); */
+    background-color:rgba(255, 146, 78, 0.739);
+    margin-top: 10px;
+    padding: 24px 24px 24px 24px;
+    cursor: pointer ;
+    font-size: 15px;
+    margin: 1px;
+    font-family: 'Helvetica Neue', sans-serif; 
+    text-shadow: 2px 2px 2px #082b34;
+    color: #ffffff; 
+}
+.btnSelected{
+    border-radius: 10px;
+    border-style: none;
+    /* background-color: rgba(255, 162, 0, 0.957); */
+    background-color: rgb(255, 251, 1, 0.957);
+    margin-top: 10px;
+    padding: 24px 28px 24px 28px;
+    cursor: pointer ;
+    font-size: 15px;
+    margin: 1px;
+    
+    
+}
+.btn:hover {
+    background-color: rgb(255, 251, 1, 0.957);
+    color: rgba(168, 65, 1, 0.778);
+    transition-delay: 0.1s;
+    transition: 0.8s;
+    text-shadow: 2px 2px 2px #ffffff;
+}
+
+.content {
+    display: flex ;
+    position: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+}

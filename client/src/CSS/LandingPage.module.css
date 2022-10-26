@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url("../imagenes/globo-cuaderno-sobre-fondo-amarillo-naranja-vista-superior-minimalismo-concepto-educacion-geografia_175682-13575.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    padding: 30px;
+}
+.contentPadre{
+    padding: 13px 19px 13px 19px;
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    height: 90%;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    border-radius: 20px;
+    backdrop-filter: blur(0.5px);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 18% 10% 20% 10%; 
+
+    /* background: url(../../);
+    background-size:cover;
+    background-attachment: fixed; */
+}
+
+.btn{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255, 251, 1, 0.957);
+    padding: 12px 80px 12px 80px;
+    cursor: pointer ;
+    font-size: 30px;
+    color: #13110f;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(216, 102, 14);
+    color: #ffffff;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+
+}
+
+.align{
+    align-items: center;
+} 
+
+.h1 { color: #ffffff; 
+    font-family: Verdana;
+    font-size: 40px; 
+    letter-spacing: 1px;  
+    text-shadow: 2px 2px 2px #082b34; 
+}
+  
+.img {
+    width: 28%;
+    height: 20%;
+    margin-bottom: 2px;
+}
+
+.topTitle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 750px;
+}
+
