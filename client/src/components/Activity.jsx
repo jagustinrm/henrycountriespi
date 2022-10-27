@@ -63,10 +63,15 @@ function handleOnChange (e){
 const handleOnSubmit = (e)=>
   {
     e.preventDefault();
-    dispatch(actions.createActivity(input))
+    
+    if (dispatch(actions.createActivity(input)) === "Error") {
+      window.alert("Activity not created!");
+    } else { window.alert("Activity created!");
+     }
     setInput(initialState)
     setErrors(initialState)
-    window.alert("Activity created!");
+
+   
   }
 
   const handleDelete = (e)=>

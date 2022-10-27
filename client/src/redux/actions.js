@@ -96,9 +96,11 @@ export const createActivity = (activity) => {
     return async function (){
         try {
         let respuesta = await axios.post('/activity', activity)
+
         return respuesta
     } catch (error) {
         console.log(error);
+        return "Error"
     }
     }
 
