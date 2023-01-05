@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { PassThrough } = require('stream');
 const {
-  DB_USER, DB_PASSWORD, DB_HOST, DB_NAME
+  DB_USER, DB_PASSWORD, DB_HOST, DB_NAME, DB_PORT
 } = process.env;
 
 let sequelize =
@@ -13,7 +13,7 @@ let sequelize =
         database: DB_NAME,
         dialect: "postgres",
         host: DB_HOST,
-        port: 5432,
+        port: DB_PORT,
         username: DB_USER,
         password: DB_PASSWORD,
         pool: {
